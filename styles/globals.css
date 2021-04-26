@@ -1,0 +1,64 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, InkLibquid, OpenSans-Light,
+    OpenSans-Regular, OpenSans-SemiBoldItalic, OpenSans-Bold, OpenSans-BoldItalic, Lato-Light, Lato-Bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  font-weight: 400;
+  src: url("/fonts/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InkLipquid";
+  font-weight: 200;
+  src: url("/fonts/InkLipquidFonts.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  font-weight: 300;
+  src: url("/fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-weight: 400;
+  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBoldItalic";
+  font-weight: 600;
+  src: url("/fonts/OpenSans-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-BoldItalic";
+  src: url("/fonts/OpenSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  font-weight: 700;
+  src: url("/fonts/Lato-Bold.ttf") format("truetype");
+}
+
