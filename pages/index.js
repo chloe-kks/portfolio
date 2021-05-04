@@ -17,12 +17,10 @@ export default function Home() {
           Hello, World!
         </h1>
 
-        <img src="profileimg2.jpg"/>
-
         <div className={styles.selfinfo}>
 		  <div className={styles.headtitle}>Software Engineer</div>
 		  <p className={styles.description}>
-            My name is Kyeongseo Kim, and I am a junior software engineer at Tmax. <br/> I love falling with the computer world!
+            My name is Kyeongseo Kim, and I am a junior software engineer. <br/> I am in love with the computer world!
           </p>
 	      <div className={styles.icon}>
 	      <a href="mailto:kks.chloe@gmail.com">
@@ -45,17 +43,18 @@ export default function Home() {
           <div className={styles.card}>
             <h2><a href="https://kr.tmaxsoft.com/">Tmax</a></h2>
 			<h3>2021.02 - present</h3>
-            <p> - Responsible for CI/CD of ERP Service within Kubernetes-based cloud platform</p>
-			<p> - Developed frontend and backend services using React, Node</p>
+            <p> - Responsible for CI/CD of ERP Service within <code>Kubernetes</code> cloud platform</p>
+			<p> - Developed frontend and backend services using <code>React</code>, <code>Node</code></p>
 	        <p> - Participated in designing the cloud architecture of the service module</p>
           </div>
 
           <hr/>
 
           <div className={styles.card}>
-            <h2><a href="https://rnl.kaist.ac.kr">RNL Lab. </a><a href="https://nuclear.kaist.ac.kr">@ KAIST NQE</a></h2>
+            <h2><a href="https://rnl.kaist.ac.kr">RNL Lab. </a></h2>
 			<h3>2019.09 - 2019.12</h3>
             <p> - Developed both frontend and backend of the project for <a href="https://rnl.kaist.ac.kr">KAIST RNL website</a></p>
+			<p> - Web outsourcing </p>
           </div>
 
           <hr/>
@@ -65,6 +64,7 @@ export default function Home() {
 			<h3>2019.06 - 2019.08</h3>
             <p> - Managed entire process from Swift WebViewing to App Store uploading</p>
 	        <p> - Added the push notification to iOS App</p>
+			<p> - Consists of <code>Swift</code>, <code>React Native</code> </p>
           </div>
 
 	</div>
@@ -83,13 +83,13 @@ export default function Home() {
 
 	  <div className={styles.p_card_private}>
 	    <h2> Account Book </h2>
-	    <p> - Developed this website using <code>React</code>, <code>Node</code>, <code>MySql</code> </p>
+	    <p> - Developed this website using <code>React</code>, <code>Node</code>, <code>TypeScript</code>, <code>Mysql</code> </p>
 	  </div>
 
 	  <hr />
 	  
 	  <div className={styles.p_card_pub}>
-	    <a href="https://github.com/sparcs-kaist/biseo-backend">
+	    <a href="https://github.com/chloe-kks/biseo">
 	    <h2> SPARCS Biseo </h2>
 	    <p> - Participated in DB, RESTful APIs, Socket API using <code>React</code>, <code>Node</code>, <code>MongoDB</code> </p>
 	    </a>
@@ -137,6 +137,8 @@ export default function Home() {
 	    <p> - <a href="https://line.me">Line Scholarships</a> (2018-2019) : for undergraduates in S.o.C </p>
 	    <br/>
 	    <p> - <a href="https://sparcs.org">SPARCS</a> (2016-2020) : developer and wheel (server manager)</p>
+		<br/>
+		<p> - <a href="https://instagram.com/kaist_cat_shelter">KAIST CAT SHELTER</a> (2018-2019) : founder and president </p>
 	  </div>
 	  <hr/>
 	  <div className={styles.edu_card}>

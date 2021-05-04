@@ -34,7 +34,7 @@
   margin-top: .7rem;
   padding: 1.2rem;
   border-radius: 50%;
-  width: 15rem;
+  width: 12rem;
 }
 
 .workinfo a {
@@ -92,6 +92,16 @@
   border-radius: 5px;
   padding: 0.4rem;
   font-size: 1rem;
+  font-weight: 600;
+  font-family: OpenSans-Regular;
+}
+
+.skillinfo code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 1rem;
+  font-weight: 300 !important;
   font-family: OpenSans-Regular;
 }
 
